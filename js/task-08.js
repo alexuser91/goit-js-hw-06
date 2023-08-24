@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.querySelector(".login-form");
 
   loginForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent page reload
+    event.preventDefault(); 
 
     const emailInput = loginForm.elements.email;
     const passwordInput = loginForm.elements.password;
